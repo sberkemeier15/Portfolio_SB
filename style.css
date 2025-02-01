@@ -1,13 +1,10 @@
-/* color scheme */
-
-:root {
-  --primary-color: #f8e9d6;
-  --secondary-color: #8c9d75;
-  --tertiary-color: #bf8c68;
-  --quaternary-color: #222e11;
-}
-
-
+/* color scheme 
+Dark Blue: #253d49
+Muted Brown: #815e55
+Bright Orange: #ff8252
+Soft Beige: #e4d4cd
+Light Blue: #f3feff
+*/
 
 
 /* main adjustments */
@@ -20,6 +17,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  
 }
 
 header {
@@ -35,7 +33,7 @@ header {
   justify-content: space-between; 
   align-items: center; 
   padding: 10px 20px; 
-  background-color: #f8e9d6; 
+  background-color:#f3feff; 
   border-bottom: 2px solid #8c9d75; 
 }
   
@@ -54,15 +52,18 @@ header {
   /* Link styling */
 .nav-links a {
   text-decoration: none; 
-  color: #222e11; 
+  color: #253d49; 
   font-size: 1rem; 
   font-weight: 500;
   transition: color 0.3s ease; 
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
 }
   
   /* Hover effect for links */
 .nav-links a:hover {
-  color: #bf8c68; 
+  color: #ff8252; 
 }
 
 /* about me container */
@@ -84,7 +85,9 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 20px;
 }
+
 
 /* projects container */
 .projects-container h2 {
@@ -108,7 +111,7 @@ header {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  background-color: #f8e9d6;
+  background-color: #f3feff;
 }
 
 .project:hover {
@@ -124,13 +127,13 @@ header {
 
 .project a {
   text-decoration: none;
-  color: #222e11;
+  color: #253d49;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .project a:hover {
-  color: #bf8c68;
+  color: #ff8252;
 }
 
 /* skills container */
@@ -157,13 +160,13 @@ header {
 
 .skills-container li i {
   transform: scale(2);
-  color: #222e11;
+  color: #253d49;
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
 .skills-container li i:hover {
-  color: #bf8c68;
+  color: #ff8252;
   transform: scale(2.2);
 } 
 
@@ -179,7 +182,7 @@ header {
   border: 1px solid #8c9d75;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  background-color: #f8e9d6;
+  background-color:#f3feff;
 }
 
 .contact ul {
@@ -197,7 +200,7 @@ header {
 
 .contact li i {
   transform: scale(2);
-  color: #222e11; /* adjust the value to your desired size */
+  color:  #253d49; /* adjust the value to your desired size */
 }
 
 @media screen and (max-width: 768px) {
